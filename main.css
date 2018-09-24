@@ -1,0 +1,133 @@
+body {
+	overflow-x: hidden;
+	font-family: 'Arial, Helvetica, sans-serif';
+	background: url('images/background.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+}
+
+.navbar {
+	border-radius:0;
+	color:rgb(128,0,0);
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom:0;
+}
+
+#topnav {
+	background-image: linear-gradient(to right, #fff, transparent);
+	margin-top:-1px;
+}
+
+#logo {
+	height:50px;
+	width:50px;
+	float:left;
+}
+
+#navigation {
+	background-color: rgb(128,0,0);
+	min-height:40px;
+	padding-top:7px;
+	border:2px solid #fff;
+	border-style: groove;
+}
+
+#navigation a,
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#navigation a:hover,
+footer a:hover {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#homejumbo {
+	background-image: url('images/yarn.jpg');
+}
+
+#aboutjumbo {
+	background-image: url('images/yarn.jpg');
+}
+
+.jumbotron {
+	height: 80vh;
+	background-repeat: no-repeat;
+	background-size: 100vw, 100%;
+	background-attachment: fixed;
+	margin-top:-1px;
+	border-bottom: 2px solid #fff;
+	border-bottom-style: groove;
+}
+
+.jumbotron .row {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#floatingwelcome {
+	background-color: rgb(128,0,0);
+	border-radius: 10px;
+	color: #fff;
+	border: 2px solid #fff;
+	border-style: groove;
+}
+
+#floatingwelcome h2, #floatingwelcome h3 {
+	text-shadow: 1px 1px #000;
+}
+
+.container {
+	background-color: rgb(128,0,0);
+	border: 2px solid #fff;
+	border-style: groove;
+	padding:0;
+}
+
+.post {
+	background-image: radial-gradient(rgb(128,0,0) 90%, #fff 10%);
+	padding:10px;
+	color: #fff;
+}
+
+.vertical {
+	height: 100vh;
+	width: 30vw;
+}
+
+.horizontal {
+	height: 60vh;
+	width: 60.3vw;
+}
+
+.pic {
+	display:inline-block;
+	padding-bottom:4px;
+}
+
+.caption {
+	width: 60vw;
+	margin:auto;
+	text-align:left;
+}
+
+footer {
+	background-color: rgb(128,0,0);
+	color:#fff !important;
+}
+
+#social {
+	text-shadow: none !important;
+}
+
+#social img {
+	height: 50px;
+	width: 50px;
+	padding: 5px;
+}
