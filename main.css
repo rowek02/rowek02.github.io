@@ -27,7 +27,8 @@ body {
 }
 
 #navigation {
-	background-color: rgb(128,0,0);
+	/*background-color: rgb(128,0,0);*/
+	background-image: linear-gradient(to right,rgba(255,255,255,.7), rgb(128,0,0));
 	min-height:40px;
 	padding-top:7px;
 	border:2px solid #fff;
@@ -47,51 +48,53 @@ footer a:hover {
 	font-weight: bold;
 }
 
-#homejumbo {
-	/*background-image: url('images/yarn.jpg');*/
+.jumbotron {
+	margin-top:-1px;
 	background-color: transparent;
 }
 
-#aboutjumbo {
-	background-image: url('images/yarn.jpg');
-}
-
-.jumbotron {
-	height: 80vh;
-	background-repeat: no-repeat;
-	background-size: 100vw, 100%;
-	margin-top:-1px;
-}
-
-.jumbotron .row {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
 #floatingwelcome {
-	background-color: rgb(128,0,0);
+	background-color: rgba(255,255,255,.7);
 	border-radius: 10px;
 	color: #fff;
 	border: 2px solid #fff;
 	border-style: groove;
+	width: 50vw;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
 }
 
-#floatingwelcome h2, #floatingwelcome h3 {
+#floatingwelcome h2,
+#floatingwelcome h3 {
 	text-shadow: 1px 1px #000;
 }
 
-.container {
+#innerwelcome {
 	background-color: rgb(128,0,0);
+	border-radius: 10px;
+	padding:10px;
+	border: 1px solid #000;
+}
+
+.container {
+	background-color: rgba(255,255,255,.7);
 	border: 2px solid #fff;
 	border-style: groove;
-	padding:0;
+	padding:10px;
+	border-radius: 10px;
 }
 
 .post {
-	background-image: radial-gradient(rgb(128,0,0) 90%, #fff 10%);
+	background-image: linear-gradient(#fff,rgb(128,0,0)); /*radial-gradient(rgb(128,0,0) 90%, #fff 10%);*/
 	padding:10px;
 	color: #fff;
+	border-radius:10px;
+	border: 1px solid #000;
+}
+
+.post h2 {
+	color: rgb(128,0,0);
 }
 
 .vertical {
