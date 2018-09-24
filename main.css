@@ -92,10 +92,22 @@ footer a:hover {
 	border-style: groove;
 	padding:10px;
 	border-radius: 10px;
+	color: rgb(128,0,0);
+}
+
+.container li {
+	font-size: 18px;
+}
+
+.container a,
+.container a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: rgb(128,0,0);
 }
 
 .post {
-	background-image: linear-gradient(#fff,rgb(128,0,0)); /*radial-gradient(rgb(128,0,0) 90%, #fff 10%);*/
+	background-image: linear-gradient(#fff,rgb(128,0,0));
 	padding:10px;
 	color: #fff;
 	border-radius:10px;
