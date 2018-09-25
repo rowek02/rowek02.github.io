@@ -119,13 +119,13 @@ footer a:hover {
 }
 
 .vertical {
-	height: 100vh;
 	width: 30vw;
+	height: auto;/*100vh*/
 }
 
 .horizontal {
-	height: 60vh;
 	width: 60.3vw;
+	height: auto;/*60vh;*/
 }
 
 .pic {
